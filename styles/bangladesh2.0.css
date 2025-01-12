@@ -1,0 +1,540 @@
+/* General Font */
+.Fira-Sans {
+    font-family: "Fira Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.sign-in{
+    color: rgb(0, 106, 80);
+        
+}
+.header-box {
+    
+    background: rgb(198, 228, 214); /* Green background for the header */
+    border-radius: 17px;
+    padding: 42px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 40px; /* Space around the box */
+}
+
+/* Header Background */
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it stays on top of other content */
+    width: 100%;
+    padding: 20px;
+    background: rgb(255, 255, 255); /* Green background for the header */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for aesthetics */
+}
+
+body{
+    background: rgb(245, 245, 245);
+}
+/* Nav Styles */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 48px;
+}
+
+.nav-title {
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* Nav Buttons */
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li button {
+    background: transparent;
+    border: 2px solid rgb(14, 14, 14);
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Banner Section */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 71px;
+    flex-wrap: wrap;
+}
+
+.banner-greetings {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.dark-2 {
+    color: rgba(14, 14, 14, 0.5);
+}
+
+.banner-title {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.banner-content {
+    max-width: 580px;
+}
+
+/* Button Styles */
+.btn-primary {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: rgb(0, 106, 80);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+}
+.btn-primary-2{
+    display: inline-block;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    text-decoration: none;
+}
+.btn-primary-3{
+    display: inline-block;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    text-decoration: none;
+    
+}
+.btn-primary-4{
+    display: inline-block;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 8px;
+    background: rgb(255, 194, 57); 
+    text-decoration: none;
+       
+}
+.vision-button{
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+}
+.btn-primary i {
+    margin-right: 8px;
+}
+/* skills section  styles*/
+.skills-container{
+    display: flex;
+    gap: 17px;
+}
+.pillars{
+    padding: 21px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 35px 0px #FFFFFF;
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background:whitesmoke;
+}
+.section-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.text-center{
+    text-align:left;
+    
+}
+.pillars-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17px;
+}
+.Pillars-title{
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 26px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.text-description{
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 0%;
+text-align: left;
+}
+.dr-younus {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .dr-younus .quote {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #555;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 60px;
+  }
+  
+  .dr-younus .quote img.quote-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .dr-younus .quote-details {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .dr-younus .quote-details h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .dr-younus .quote-details span {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+.description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.Digital-Transformation{
+box-sizing: border-box;
+border-radius: 12px;
+background: rgba(84, 144, 245, 0.2);
+}
+.Green-Energy{
+    box-sizing: border-box;
+    border-radius: 12px; 
+    background: rgba(84, 144, 245, 0.2);
+}
+.Modern-Infrastructure{
+    box-sizing: border-box;
+    border-radius: 12px;
+    background: rgb(247, 235, 207);
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+.opinion-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.opinion-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.opinion-table th, .opinion-table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px rgb(198, 228, 214);
+}
+
+.opinion-table th {
+    background-color: rgb(198, 228, 214);
+    font-weight: bold;
+}
+
+.opinion-table select {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(198, 228, 214);
+}
+.recent-news-section {
+    padding: 30px;
+    background-color: #f9f9f9;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.section-title {
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section-description {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.news-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+.news-image {
+    border-radius: 24px;
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.news-content {
+    flex: 1;
+}
+
+.news-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.news-source {
+    font-size: 14px;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.news-date {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.news-description {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.read-more-button {
+    display: inline-block;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    text-decoration: none;
+}
+
+.read-more-button:hover {
+    background-color: #0056b3;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.donate-section,
+.subscribe-section {
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 908px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.section-description {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.donation-options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.donation-button {
+    background-color: #ffffff;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.donation-button.active,
+.donation-button:hover {
+    background-color: #008000;
+    color: #ffffff;
+    border-color: #008000;
+    
+}
+
+.donation-input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.donate-now-button {
+    /* display: inline-block;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    text-decoration: none; */
+
+    background-color: #008000;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.donate-now-button:hover {
+    background-color: #006400;
+}
+
+.subscribe-section {
+    background-color: #e8f5e9;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.subscribe-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.subscribe-button {
+    background-color: #008000;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.subscribe-button:hover {
+    background-color: #006400;
+}
+
+.subscribe-note {
+    font-size: 12px;
+    color: #666;
+}
+
+
+
